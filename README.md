@@ -1,11 +1,10 @@
 This project uses GNU makefiles to build the site as "drush make" don't 
 supports that the main projekt is a complete git repository.
 
-The eReolen sites consists of 3 repositries.
+The eReolen sites consists of 2 repositries.
 
 * Base
 * Site specific modules
-* Site themes
 
 # eReolen
 To build the code base and first remove the existing folder use the "all" rule
