@@ -1,10 +1,11 @@
 dir ?= htdocs
 
-all: clean build
+all: build
 
 build:
 		git clone --branch develop https://github.com/eReolen/base.git $(dir)
-		git clone --branch develop https://github.com/eReolen/ereolen.git $(dir)/sites/all/modules/ereol
+		git clone --branch develop https://github.com/eReolen/kreolen-modules.git $(dir)/sites/all/modules/kreol
+		git clone --branch develop https://github.com/eReolen/kreolen-themes.git $(dir)/sites/all/themes/kreol
 
 clean:
 		rm -rf $(dir)
